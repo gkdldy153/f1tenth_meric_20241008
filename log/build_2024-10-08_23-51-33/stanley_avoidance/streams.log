@@ -1,0 +1,49 @@
+[1.623s] Invoking command in '/home/meric/f1_ws/src/stanley_avoidance': PYTHONPATH=/home/meric/f1_ws/build/stanley_avoidance/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/meric/f1_ws/build/stanley_avoidance/build install --record /home/meric/f1_ws/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed install_data
+[2.130s] /home/meric/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.131s]   warnings.warn(
+[2.190s] running egg_info
+[2.192s] creating ../../build/stanley_avoidance/stanley_avoidance.egg-info
+[2.192s] writing ../../build/stanley_avoidance/stanley_avoidance.egg-info/PKG-INFO
+[2.192s] writing dependency_links to ../../build/stanley_avoidance/stanley_avoidance.egg-info/dependency_links.txt
+[2.193s] writing entry points to ../../build/stanley_avoidance/stanley_avoidance.egg-info/entry_points.txt
+[2.193s] writing requirements to ../../build/stanley_avoidance/stanley_avoidance.egg-info/requires.txt
+[2.193s] writing top-level names to ../../build/stanley_avoidance/stanley_avoidance.egg-info/top_level.txt
+[2.193s] writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[2.197s] reading manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[2.198s] adding license file 'LICENSE'
+[2.199s] writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[2.200s] running build
+[2.200s] running build_py
+[2.200s] creating /home/meric/f1_ws/build/stanley_avoidance/build
+[2.200s] creating /home/meric/f1_ws/build/stanley_avoidance/build/lib
+[2.200s] creating /home/meric/f1_ws/build/stanley_avoidance/build/lib/stanley_avoidance
+[2.200s] copying stanley_avoidance/stanley_avoidance.py -> /home/meric/f1_ws/build/stanley_avoidance/build/lib/stanley_avoidance
+[2.200s] copying stanley_avoidance/__init__.py -> /home/meric/f1_ws/build/stanley_avoidance/build/lib/stanley_avoidance
+[2.201s] running install
+[2.201s] running install_lib
+[2.203s] creating /home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages/stanley_avoidance
+[2.203s] copying /home/meric/f1_ws/build/stanley_avoidance/build/lib/stanley_avoidance/stanley_avoidance.py -> /home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages/stanley_avoidance
+[2.204s] copying /home/meric/f1_ws/build/stanley_avoidance/build/lib/stanley_avoidance/__init__.py -> /home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages/stanley_avoidance
+[2.205s] byte-compiling /home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages/stanley_avoidance/stanley_avoidance.py to stanley_avoidance.cpython-310.pyc
+[2.218s] byte-compiling /home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages/stanley_avoidance/__init__.py to __init__.cpython-310.pyc
+[2.218s] running install_data
+[2.218s] creating /home/meric/f1_ws/install/stanley_avoidance/share/ament_index
+[2.218s] creating /home/meric/f1_ws/install/stanley_avoidance/share/ament_index/resource_index
+[2.218s] creating /home/meric/f1_ws/install/stanley_avoidance/share/ament_index/resource_index/packages
+[2.219s] copying resource/stanley_avoidance -> /home/meric/f1_ws/install/stanley_avoidance/share/ament_index/resource_index/packages
+[2.219s] copying package.xml -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance
+[2.219s] creating /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/racelines
+[2.220s] creating /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+[2.220s] copying launch/stanley_avoidance_launch.py -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+[2.220s] copying launch/stanley_avoidance.rviz -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+[2.220s] copying launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+[2.220s] copying launch/sim_stanley_avoidance_launch.py -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+[2.221s] creating /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/config
+[2.221s] copying config/config.yaml -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/config
+[2.221s] copying config/sim_config.yaml -> /home/meric/f1_ws/install/stanley_avoidance/share/stanley_avoidance/config
+[2.221s] running install_egg_info
+[2.225s] Copying ../../build/stanley_avoidance/stanley_avoidance.egg-info to /home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages/stanley_avoidance-0.0.0-py3.10.egg-info
+[2.227s] running install_scripts
+[2.271s] Installing stanley_avoidance script to /home/meric/f1_ws/install/stanley_avoidance/lib/stanley_avoidance
+[2.272s] writing list of installed files to '/home/meric/f1_ws/build/stanley_avoidance/install.log'
+[2.354s] Invoked command in '/home/meric/f1_ws/src/stanley_avoidance' returned '0': PYTHONPATH=/home/meric/f1_ws/build/stanley_avoidance/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/stanley_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/meric/f1_ws/build/stanley_avoidance/build install --record /home/meric/f1_ws/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed install_data

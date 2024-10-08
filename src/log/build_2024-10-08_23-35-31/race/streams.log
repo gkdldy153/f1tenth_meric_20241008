@@ -1,0 +1,41 @@
+[1.277s] Invoking command in '/home/meric/f1_ws/src/build/race': /usr/bin/cmake /home/meric/f1_ws/src/Wall_following_F1thenth/race -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/src/install/race
+[1.305s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.306s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.306s]   CMake.
+[1.306s] 
+[1.306s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.309s]   CMake that the project does not need compatibility with older versions.
+[1.309s] 
+[1.309s] [0m
+[1.458s] -- The C compiler identification is GNU 11.4.0
+[1.642s] -- The CXX compiler identification is GNU 11.4.0
+[1.660s] -- Detecting C compiler ABI info
+[1.809s] -- Detecting C compiler ABI info - done
+[1.823s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.824s] -- Detecting C compile features
+[1.825s] -- Detecting C compile features - done
+[1.833s] -- Detecting CXX compiler ABI info
+[1.995s] -- Detecting CXX compiler ABI info - done
+[2.014s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.015s] -- Detecting CXX compile features
+[2.016s] -- Detecting CXX compile features - done
+[2.036s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[2.036s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.036s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.036s]   CMake did not find one.
+[2.036s] 
+[2.037s]   Could not find a package configuration file provided by "catkin" with any
+[2.037s]   of the following names:
+[2.037s] 
+[2.037s]     catkinConfig.cmake
+[2.037s]     catkin-config.cmake
+[2.037s] 
+[2.037s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.037s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.038s]   provides a separate development package or SDK, be sure it has been
+[2.038s]   installed.
+[2.038s] 
+[2.038s] [0m
+[2.038s] -- Configuring incomplete, errors occurred!
+[2.038s] See also "/home/meric/f1_ws/src/build/race/CMakeFiles/CMakeOutput.log".
+[2.501s] Invoked command in '/home/meric/f1_ws/src/build/race' returned '1': /usr/bin/cmake /home/meric/f1_ws/src/Wall_following_F1thenth/race -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/src/install/race

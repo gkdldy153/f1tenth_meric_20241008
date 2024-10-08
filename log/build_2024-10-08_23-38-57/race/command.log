@@ -1,0 +1,2 @@
+Invoking command in '/home/meric/f1_ws/build/race': /usr/bin/cmake /home/meric/f1_ws/src/Wall_following_F1thenth/race -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/race
+Invoked command in '/home/meric/f1_ws/build/race' returned '1': /usr/bin/cmake /home/meric/f1_ws/src/Wall_following_F1thenth/race -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/race
