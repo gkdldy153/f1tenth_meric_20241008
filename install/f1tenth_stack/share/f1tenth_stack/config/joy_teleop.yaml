@@ -1,0 +1,63 @@
+# Device settings
+joy:
+  ros__parameters:
+    # device_name: /dev/input/joypad-f710
+    device_id: 0
+    deadzone: 0.01
+    autorepeat_rate: 20.0
+    coalesce_interval: 0.01
+
+# Joy teleoperation settings
+joy_teleop:
+  ros__parameters:
+    # Default control settings (e.g., for joystick)
+    default:
+      type: topic
+      interface_type: ackermann_msgs/msg/AckermannDriveStamped
+      topic_name: teleop
+      axis_mappings:
+        drive-speed:
+          axis: 1
+          scale: 0.0
+          offset: 0.0
+        drive-steering_angle:
+          axis: 2
+          scale: 0.0
+          offset: 0.0
+
+    # Human control settings (e.g., for keyboard)
+    human_control:
+      type: topic
+      interface_type: ackermann_msgs/msg/AckermannDriveStamped
+      topic_name: teleop
+      deadman_buttons: [4]  # This corresponds to the left shift key
+      axis_mappings:
+        drive-speed:
+          axis: 1
+          scale: 5.0
+          offset: 0.0
+        drive-steering_angle:
+          axis: 2
+          scale: 0.34
+          offset: 0.0
+      # Adding keyboard input mapping here
+      keyboard_mapping:
+        deadman_buttons: 'space'  # Mapping left shift as deadman button for keyboard
+        axes:
+          1:
+            forward: 'w'   # Axis 1 forward
+            backward: 's'  # Axis 1 backward
+          2:
+            left: 'a'      # Axis 2 left
+            right: 'd'     # Axis 2 right
+
+    # Autonomous control settings
+    autonomous_control:
+      type: topic
+      interface_type: std_msgs/msg/Int8
+      topic_name: /dev/null
+      deadman_buttons: [5]
+      message_value:
+        data:
+          value: 0
+

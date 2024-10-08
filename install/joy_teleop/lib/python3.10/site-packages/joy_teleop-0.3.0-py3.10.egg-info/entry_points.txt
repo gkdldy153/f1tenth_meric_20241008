@@ -1,0 +1,6 @@
+[console_scripts]
+incrementer_server = joy_teleop.incrementer_server:main
+joy_override = joy_teleop.joy_override:main
+joy_teleop = joy_teleop.joy_teleop:main
+keyboard_joy = joy_teleop.keyboard_joy:main
+

@@ -1,0 +1,63 @@
+[0.031s] Invoking command in '/home/meric/f1_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/meric/f1_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/meric/f1_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/meric/f1tenth_ws/install/vesc_ackermann/lib PYTHONPATH=/home/meric/f1_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/vesc_driver
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.502s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.503s] -- Detecting C compile features
+[0.503s] -- Detecting C compile features - done
+[0.509s] -- Detecting CXX compiler ABI info
+[0.712s] -- Detecting CXX compiler ABI info - done
+[0.723s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.724s] -- Detecting CXX compile features
+[0.725s] -- Detecting CXX compile features - done
+[0.730s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.081s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.481s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.496s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.627s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.770s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.819s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.913s] -- Looking for pthread.h
+[2.049s] -- Looking for pthread.h - found
+[2.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.196s] -- Found Threads: TRUE  
+[2.451s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[2.453s] -- Found ASIO: /usr/include  
+[2.563s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.600s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.604s] -- Configured cppcheck include dirs: /home/meric/f1_ws/src/f1tenth_system/vesc/vesc_driver/include
+[2.604s] -- Configured cppcheck exclude dirs and/or files: 
+[2.605s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.605s] -- Configured cpplint exclude dirs and/or files: 
+[2.605s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.605s] -- Added test 'lint_cmake' to check CMake code style
+[2.606s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.609s] -- Added test 'uncrustify' to check C / C++ code style
+[2.609s] -- Configured uncrustify additional arguments: 
+[2.610s] -- Added test 'xmllint' to check XML markup files
+[2.615s] -- Configuring done
+[2.680s] -- Generating done
+[2.683s] -- Build files have been written to: /home/meric/f1_ws/build/vesc_driver
+[2.711s] Invoked command in '/home/meric/f1_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/meric/f1_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/meric/f1_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/meric/f1tenth_ws/install/vesc_ackermann/lib PYTHONPATH=/home/meric/f1_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/vesc/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/vesc_driver
+[2.714s] Invoking command in '/home/meric/f1_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/meric/f1_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/meric/f1_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:/home/meric/f1tenth_ws/install/vesc_ackermann/lib PYTHONPATH=/home/meric/f1_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_driver -- -j6 -l6
+[2.815s] [ 20%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[2.816s] [ 20%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o[0m
+[2.817s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[2.825s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[2.831s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[12.291s] [ 60%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[12.591s] [ 60%] Built target vesc_driver_node
+[27.352s] [ 70%] [32m[1mLinking CXX shared library libvesc_driver.so[0m
+[28.732s] [ 70%] Built target vesc_driver
+[28.778s] [ 80%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o[0m
+[28.778s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o[0m
+[30.389s] [100%] [32m[1mLinking CXX executable vesc_device_namer[0m
+[31.012s] [100%] Built target vesc_device_namer

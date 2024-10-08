@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target vesc_ackermann[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[ 42%] Built target ackermann_to_vesc_node
+[ 71%] Built target vesc_to_odom_node
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:[m[K In constructor ‘[01m[Kvesc_ackermann::AckermannToVesc::AckermannToVesc(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:70:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget[m[K’ in ‘[01m[K((vesc_ackermann::AckermannToVesc*)this)->vesc_ackermann::AckermannToVesc::<anonymous>.rclcpp::Node::declare_parameter<double>(std::__cxx11::basic_string<char>(((const char*)"speed_to_erpm_gain"), std::allocator<char>()), 1.0e+0, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >(rosidl_runtime_cpp::MessageInitialization::ALL), false)[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+   51 | o_erpm_gain_ = declare_parameter("speed_to_erpm_gain", 1.0).[01;31m[Kget[m[K<double>();
+      |                                                             [01;31m[K^~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   51 | rpm_gain_ = declare_parameter("speed_to_erpm_gain", 1.0).get<[01;31m[Kdouble[m[K>();
+      |                                                              [01;31m[K^~~~~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:74:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget[m[K’ in ‘[01m[K((vesc_ackermann::AckermannToVesc*)this)->vesc_ackermann::AckermannToVesc::<anonymous>.rclcpp::Node::declare_parameter<double>(std::__cxx11::basic_string<char>(((const char*)"speed_to_erpm_offset"), std::allocator<char>()), 0.0, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >(rosidl_runtime_cpp::MessageInitialization::ALL), false)[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+   52 | pm_offset_ = declare_parameter("speed_to_erpm_offset", 0.0).[01;31m[Kget[m[K<double>();
+      |                                                             [01;31m[K^~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   52 | offset_ = declare_parameter("speed_to_erpm_offset", 0.0).get<[01;31m[Kdouble[m[K>();
+      |                                                              [01;31m[K^~~~~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:84:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget[m[K’ in ‘[01m[K((vesc_ackermann::AckermannToVesc*)this)->vesc_ackermann::AckermannToVesc::<anonymous>.rclcpp::Node::declare_parameter<double>(std::__cxx11::basic_string<char>(((const char*)"steering_angle_to_servo_gain"), std::allocator<char>()), 1.0e+0, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >(rosidl_runtime_cpp::MessageInitialization::ALL), false)[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+   53 | n_ = declare_parameter("steering_angle_to_servo_gain", 1.0).[01;31m[Kget[m[K<double>();
+      |                                                             [01;31m[K^~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:88:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   53 | = declare_parameter("steering_angle_to_servo_gain", 1.0).get<[01;31m[Kdouble[m[K>();
+      |                                                              [01;31m[K^~~~~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:88:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget[m[K’ in ‘[01m[K((vesc_ackermann::AckermannToVesc*)this)->vesc_ackermann::AckermannToVesc::<anonymous>.rclcpp::Node::declare_parameter<double>(std::__cxx11::basic_string<char>(((const char*)"steering_angle_to_servo_offset"), std::allocator<char>()), 0.0, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >(rosidl_runtime_cpp::MessageInitialization::ALL), false)[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+   54 |  = declare_parameter("steering_angle_to_servo_offset", 0.0).[01;31m[Kget[m[K<double>();
+      |                                                             [01;31m[K^~~[m[K
+
+[01m[K/home/meric/f1_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:92:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   54 | declare_parameter("steering_angle_to_servo_offset", 0.0).get<[01;31m[Kdouble[m[K>();
+      |                                                              [01;31m[K^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/vesc_ackermann.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

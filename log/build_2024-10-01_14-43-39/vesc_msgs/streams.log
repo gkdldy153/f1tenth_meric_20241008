@@ -1,0 +1,24 @@
+[0.061s] Invoking command in '/home/meric/f1_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6
+[0.778s] [  1%] Built target vesc_msgs__cpp
+[0.779s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[0.779s] [ 12%] Built target ament_cmake_python_copy_vesc_msgs
+[0.779s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[0.779s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[0.779s] [ 45%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[0.779s] [ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[0.780s] [ 67%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[0.780s] [ 78%] Built target vesc_msgs__rosidl_typesupport_c
+[0.780s] [ 78%] Built target vesc_msgs
+[0.781s] [ 80%] Built target vesc_msgs__py
+[0.782s] [ 89%] Built target vesc_msgs__rosidl_generator_py
+[0.783s] [ 92%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[0.784s] [ 96%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.784s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[0.905s] running egg_info
+[0.907s] writing vesc_msgs.egg-info/PKG-INFO
+[0.907s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[0.908s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[0.913s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[0.914s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[0.991s] [100%] Built target ament_cmake_python_build_vesc_msgs_egg
+[1.417s] Invoked command in '/home/meric/f1_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6

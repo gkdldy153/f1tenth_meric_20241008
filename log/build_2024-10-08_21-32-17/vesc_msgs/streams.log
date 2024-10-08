@@ -1,0 +1,29 @@
+[0.053s] Invoking command in '/home/meric/f1_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6
+[1.309s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.314s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.316s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.414s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.466s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.466s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.547s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.572s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.575s] -- Added test 'lint_cmake' to check CMake code style
+[2.577s] -- Added test 'xmllint' to check XML markup files
+[2.583s] -- Configuring done
+[2.677s] -- Generating done
+[2.685s] -- Build files have been written to: /home/meric/f1_ws/build/vesc_msgs
+[2.761s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_c[0m
+[2.780s] failed to create symbolic link '/home/meric/f1_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/vesc_msgs' because existing path cannot be removed: Is a directory
+[2.782s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vesc_msgs] Error 1
+[2.783s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/all] Error 2
+[2.783s] gmake[1]: *** Waiting for unfinished jobs....
+[2.789s] [ 10%] Built target vesc_msgs__rosidl_generator_c
+[2.800s] [ 12%] Built target vesc_msgs__cpp
+[2.802s] gmake: *** [Makefile:146: all] Error 2
+[3.102s] Invoked command in '/home/meric/f1_ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6

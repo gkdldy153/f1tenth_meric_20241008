@@ -1,0 +1,93 @@
+[0.072s] Invoking command in '/home/meric/f1_ws/src/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/src/install/teleop_tools_msgs
+[0.790s] -- The C compiler identification is GNU 11.4.0
+[0.791s] -- The CXX compiler identification is GNU 11.4.0
+[0.792s] -- Detecting C compiler ABI info
+[0.792s] -- Detecting C compiler ABI info - done
+[0.792s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.792s] -- Detecting C compile features
+[0.793s] -- Detecting C compile features - done
+[0.793s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.793s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.793s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.793s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.086s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.346s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.387s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.585s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.440s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.699s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.704s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.780s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.780s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.780s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.780s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.837s] -- Found PythonExtra: .so  
+[3.963s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.968s] -- Added test 'lint_cmake' to check CMake code style
+[3.971s] -- Added test 'xmllint' to check XML markup files
+[3.983s] -- Configuring done
+[4.078s] -- Generating done
+[4.084s] -- Build files have been written to: /home/meric/f1_ws/src/build/teleop_tools_msgs
+[4.121s] Invoked command in '/home/meric/f1_ws/src/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/src/install/teleop_tools_msgs
+[4.122s] Invoking command in '/home/meric/f1_ws/src/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/src/build/teleop_tools_msgs -- -j6 -l6
+[4.269s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.292s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.445s] [  6%] Built target ament_cmake_python_copy_teleop_tools_msgs
+[5.336s] running egg_info
+[5.337s] creating teleop_tools_msgs.egg-info
+[5.337s] writing teleop_tools_msgs.egg-info/PKG-INFO
+[5.337s] writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt
+[5.337s] writing top-level names to teleop_tools_msgs.egg-info/top_level.txt
+[5.337s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[5.346s] reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[5.347s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[5.530s] [  6%] Built target ament_cmake_python_build_teleop_tools_msgs_egg
+[5.724s] [  6%] Built target teleop_tools_msgs__cpp
+[5.796s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.822s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.833s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.104s] [ 19%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[6.870s] [ 22%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[7.083s] [ 22%] Built target teleop_tools_msgs__rosidl_generator_c
+[7.157s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.166s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.187s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.286s] [ 35%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[7.580s] [ 38%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o[0m
+[7.881s] [ 41%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o[0m
+[8.481s] [ 45%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[8.747s] [ 48%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so[0m
+[8.957s] [ 48%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[9.159s] [ 51%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[9.260s] [ 54%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o[0m
+[9.628s] [ 58%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.929s] [ 58%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[10.417s] [ 61%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so[0m
+[10.657s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[11.580s] [ 64%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.839s] [ 67%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.851s] [ 70%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.073s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[12.148s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[12.236s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[12.371s] [ 70%] Built target teleop_tools_msgs
+[12.549s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.855s] [ 74%] Built target teleop_tools_msgs__py
+[16.015s] [ 77%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+[16.793s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__rosidl_generator_py.so[0m
+[17.007s] [ 80%] Built target teleop_tools_msgs__rosidl_generator_py
+[17.066s] [ 83%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.108s] [ 87%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.140s] [ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.515s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.547s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.588s] [100%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.632s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+[17.678s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext
+[17.714s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext

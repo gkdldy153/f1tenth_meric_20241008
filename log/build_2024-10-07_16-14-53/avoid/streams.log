@@ -1,0 +1,20 @@
+[1.496s] Invoking command in '/home/meric/f1_ws/src/avoid': PYTHONPATH=/home/meric/f1_ws/build/avoid/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/avoid build --build-base /home/meric/f1_ws/build/avoid/build install --record /home/meric/f1_ws/build/avoid/install.log --single-version-externally-managed
+[2.081s] running egg_info
+[2.083s] writing ../../build/avoid/avoid.egg-info/PKG-INFO
+[2.083s] writing dependency_links to ../../build/avoid/avoid.egg-info/dependency_links.txt
+[2.084s] writing entry points to ../../build/avoid/avoid.egg-info/entry_points.txt
+[2.084s] writing requirements to ../../build/avoid/avoid.egg-info/requires.txt
+[2.084s] writing top-level names to ../../build/avoid/avoid.egg-info/top_level.txt
+[2.088s] reading manifest file '../../build/avoid/avoid.egg-info/SOURCES.txt'
+[2.089s] writing manifest file '../../build/avoid/avoid.egg-info/SOURCES.txt'
+[2.090s] running build
+[2.090s] running build_py
+[2.090s] running install
+[2.091s] running install_lib
+[2.094s] running install_egg_info
+[2.098s] removing '/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid-0.0.0-py3.10.egg-info' (and everything under it)
+[2.099s] Copying ../../build/avoid/avoid.egg-info to /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid-0.0.0-py3.10.egg-info
+[2.101s] running install_scripts
+[2.145s] Installing simple_controller script to /home/meric/f1_ws/install/avoid/lib/avoid
+[2.145s] writing list of installed files to '/home/meric/f1_ws/build/avoid/install.log'
+[2.222s] Invoked command in '/home/meric/f1_ws/src/avoid' returned '0': PYTHONPATH=/home/meric/f1_ws/build/avoid/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/avoid build --build-base /home/meric/f1_ws/build/avoid/build install --record /home/meric/f1_ws/build/avoid/install.log --single-version-externally-managed

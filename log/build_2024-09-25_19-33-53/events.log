@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.000379] (ackermann_mux) JobQueued: {'identifier': 'ackermann_mux', 'dependencies': OrderedDict()}
+[0.000650] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.001268] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.001520] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.001881] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.001971] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict([('teleop_tools_msgs', '/home/meric/f1_ws/install/teleop_tools_msgs')])}
+[0.002051] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/home/meric/f1_ws/install/vesc_msgs')])}
+[0.002145] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/home/meric/f1_ws/install/vesc_msgs')])}
+[0.002240] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict([('key_teleop', '/home/meric/f1_ws/install/key_teleop'), ('teleop_tools_msgs', '/home/meric/f1_ws/install/teleop_tools_msgs'), ('joy_teleop', '/home/meric/f1_ws/install/joy_teleop')])}
+[0.002318] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/home/meric/f1_ws/install/vesc_msgs'), ('vesc_ackermann', '/home/meric/f1_ws/install/vesc_ackermann'), ('vesc_driver', '/home/meric/f1_ws/install/vesc_driver')])}
+[0.002402] (f1tenth_stack) JobQueued: {'identifier': 'f1tenth_stack', 'dependencies': OrderedDict([('ackermann_mux', '/home/meric/f1_ws/install/ackermann_mux'), ('teleop_tools_msgs', '/home/meric/f1_ws/install/teleop_tools_msgs'), ('vesc_msgs', '/home/meric/f1_ws/install/vesc_msgs'), ('joy_teleop', '/home/meric/f1_ws/install/joy_teleop'), ('vesc_ackermann', '/home/meric/f1_ws/install/vesc_ackermann'), ('vesc_driver', '/home/meric/f1_ws/install/vesc_driver'), ('vesc', '/home/meric/f1_ws/install/vesc')])}
+[0.002571] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.015018] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.021234] (ackermann_mux) JobStarted: {'identifier': 'ackermann_mux'}
+[0.027697] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.038380] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[0.051400] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.052802] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[0.054068] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/meric/f1_ws/build/vesc_msgs', '--', '-j6', '-l6'], 'cwd': '/home/meric/f1_ws/build/vesc_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'meric'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64::/home/meric/f1tenth_ws/install/vesc_ackermann/lib'), ('HOME', '/home/meric'), ('OLDPWD', '/home/meric'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1717'), ('SYSTEMD_EXEC_PID', '3154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6118'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meric/f1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meric'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420524217180'), ('JOURNAL_STREAM', '8:43933'), ('_', '/home/meric/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3131,unix/ubuntu:/tmp/.ICE-unix/3131'), ('INVOCATION_ID', '167445556b4443b3808226aeee300b69'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:75050931-6ce4-4d04-bb17-96c5c7a41a1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meric/f1_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.059722] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.061475] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[0.062059] (teleop_tools_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/meric/f1_ws/build/teleop_tools_msgs', '--', '-j6', '-l6'], 'cwd': '/home/meric/f1_ws/build/teleop_tools_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'meric'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64::/home/meric/f1tenth_ws/install/vesc_ackermann/lib'), ('HOME', '/home/meric'), ('OLDPWD', '/home/meric'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1717'), ('SYSTEMD_EXEC_PID', '3154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6118'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meric/f1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meric'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420524217180'), ('JOURNAL_STREAM', '8:43933'), ('_', '/home/meric/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3131,unix/ubuntu:/tmp/.ICE-unix/3131'), ('INVOCATION_ID', '167445556b4443b3808226aeee300b69'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:75050931-6ce4-4d04-bb17-96c5c7a41a1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meric/f1_ws/build/teleop_tools_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066817] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'cmake'}
+[0.068270] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'build'}
+[0.068845] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/meric/f1_ws/build/ackermann_mux', '--', '-j6', '-l6'], 'cwd': '/home/meric/f1_ws/build/ackermann_mux', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'meric'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64::/home/meric/f1tenth_ws/install/vesc_ackermann/lib'), ('HOME', '/home/meric'), ('OLDPWD', '/home/meric'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1717'), ('SYSTEMD_EXEC_PID', '3154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6118'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meric/f1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meric'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420524217180'), ('JOURNAL_STREAM', '8:43933'), ('_', '/home/meric/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3131,unix/ubuntu:/tmp/.ICE-unix/3131'), ('INVOCATION_ID', '167445556b4443b3808226aeee300b69'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:75050931-6ce4-4d04-bb17-96c5c7a41a1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meric/f1_ws/build/ackermann_mux'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099484] (-) TimerEvent: {}
+[0.200181] (-) TimerEvent: {}
+[0.301105] (-) TimerEvent: {}
+[0.401786] (-) TimerEvent: {}
+[0.502459] (-) TimerEvent: {}
+[0.603162] (-) TimerEvent: {}
+[0.703855] (-) TimerEvent: {}
+[0.804509] (-) TimerEvent: {}
+[0.905203] (-) TimerEvent: {}
+[1.005935] (-) TimerEvent: {}
+[1.110899] (-) TimerEvent: {}
+[1.159117] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.159593] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target vesc_msgs__cpp\n'}
+[1.159769] (vesc_msgs) StdoutLine: {'line': b'[ 12%] Built target vesc_msgs__rosidl_generator_c\n'}
+[1.159918] (vesc_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_vesc_msgs\n'}
+[1.160056] (vesc_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.160189] (vesc_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.160316] (vesc_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.160438] (vesc_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.160557] (vesc_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.160674] (vesc_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.183493] (teleop_tools_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target teleop_tools_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.183968] (teleop_tools_msgs) StdoutLine: {'line': b'[  3%] Built target teleop_tools_msgs__cpp\n'}
+[1.184160] (teleop_tools_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_teleop_tools_msgs\n'}
+[1.184311] (teleop_tools_msgs) StdoutLine: {'line': b'[ 12%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[1.184450] (teleop_tools_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.184582] (teleop_tools_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.184709] (teleop_tools_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.184832] (teleop_tools_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.184954] (teleop_tools_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.185073] (teleop_tools_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.185188] (teleop_tools_msgs) StdoutLine: {'line': b'writing teleop_tools_msgs.egg-info/PKG-INFO\n'}
+[1.185304] (teleop_tools_msgs) StdoutLine: {'line': b'writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt\n'}
+[1.185420] (teleop_tools_msgs) StdoutLine: {'line': b'writing top-level names to teleop_tools_msgs.egg-info/top_level.txt\n'}
+[1.206926] (ackermann_mux) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ackermann_mux\x1b[0m\n'}
+[1.207370] (ackermann_mux) StdoutLine: {'line': b'[100%] Built target ackermann_mux\n'}
+[1.211003] (-) TimerEvent: {}
+[1.311835] (-) TimerEvent: {}
+[1.412763] (-) TimerEvent: {}
+[1.447598] (teleop_tools_msgs) StdoutLine: {'line': b"reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[1.512938] (-) TimerEvent: {}
+[1.519645] (teleop_tools_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.526504] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/f1_ws/build/teleop_tools_msgs/ament_cmake_python/teleop_tools_msgs/setup.py", line 4, in <module>\n'}
+[1.527353] (teleop_tools_msgs) StderrLine: {'line': b'    setup(\n'}
+[1.527681] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[1.528118] (teleop_tools_msgs) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[1.528406] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[1.528824] (teleop_tools_msgs) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[1.529096] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[1.529514] (teleop_tools_msgs) StderrLine: {'line': b'    dist.run_commands()\n'}
+[1.529791] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[1.530407] (teleop_tools_msgs) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[1.530695] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command\n'}
+[1.531250] (teleop_tools_msgs) StderrLine: {'line': b'    super().run_command(command)\n'}
+[1.531521] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[1.532080] (teleop_tools_msgs) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[1.534312] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run\n'}
+[1.534941] (teleop_tools_msgs) StderrLine: {'line': b'    self.find_sources()\n'}
+[1.535253] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources\n'}
+[1.535732] (teleop_tools_msgs) StderrLine: {'line': b'    mm.run()\n'}
+[1.536012] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run\n'}
+[1.536484] (teleop_tools_msgs) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[1.536755] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[1.537152] (teleop_tools_msgs) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[1.537424] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[1.537911] (teleop_tools_msgs) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[1.538213] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[1.538681] (teleop_tools_msgs) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[1.538975] (teleop_tools_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[1.539429] (teleop_tools_msgs) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[1.539745] (teleop_tools_msgs) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[1.613114] (-) TimerEvent: {}
+[1.677684] (teleop_tools_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o\x1b[0m\n'}
+[1.713311] (-) TimerEvent: {}
+[1.747098] (teleop_tools_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg] Error 1\n'}
+[1.747634] (teleop_tools_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/all] Error 2\n'}
+[1.747808] (teleop_tools_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.808330] (teleop_tools_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o\x1b[0m\n'}
+[1.813449] (-) TimerEvent: {}
+[1.885410] (teleop_tools_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o\x1b[0m\n'}
+[1.913635] (-) TimerEvent: {}
+[2.014579] (-) TimerEvent: {}
+[2.075013] (teleop_tools_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o\x1b[0m\n'}
+[2.114725] (-) TimerEvent: {}
+[2.215701] (-) TimerEvent: {}
+[2.309011] (teleop_tools_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o\x1b[0m\n'}
+[2.315904] (-) TimerEvent: {}
+[2.337160] (teleop_tools_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.416194] (-) TimerEvent: {}
+[2.431621] (vesc_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[2.495886] (ackermann_mux) CommandEnded: {'returncode': 0}
+[2.520494] (-) TimerEvent: {}
+[2.521345] (teleop_tools_msgs) StdoutLine: {'line': b'[ 48%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[2.529047] (vesc_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[2.598453] (vesc_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.620689] (-) TimerEvent: {}
+[2.728011] (ackermann_mux) JobProgress: {'identifier': 'ackermann_mux', 'progress': 'install'}
+[2.728201] (-) TimerEvent: {}
+[2.772150] (ackermann_mux) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/meric/f1_ws/build/ackermann_mux'], 'cwd': '/home/meric/f1_ws/build/ackermann_mux', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'meric'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64::/home/meric/f1tenth_ws/install/vesc_ackermann/lib'), ('HOME', '/home/meric'), ('OLDPWD', '/home/meric'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1717'), ('SYSTEMD_EXEC_PID', '3154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6118'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meric/f1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meric'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420524217180'), ('JOURNAL_STREAM', '8:43933'), ('_', '/home/meric/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3131,unix/ubuntu:/tmp/.ICE-unix/3131'), ('INVOCATION_ID', '167445556b4443b3808226aeee300b69'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:75050931-6ce4-4d04-bb17-96c5c7a41a1a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meric/f1_ws/build/ackermann_mux'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.788627] (ackermann_mux) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.789934] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux\n'}
+[2.791359] (vesc_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[2.803810] (ackermann_mux) StdoutLine: {'line': b'-- Set runtime path of "/home/meric/f1_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux" to ""\n'}
+[2.804917] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/launch\n'}
+[2.805739] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py\n'}
+[2.806625] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/config\n'}
+[2.807235] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml\n'}
+[2.807929] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml\n'}
+[2.808605] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml\n'}
+[2.809382] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include\n'}
+[2.809954] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux\n'}
+[2.811151] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp\n'}
+[2.811877] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp\n'}
+[2.812522] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp\n'}
+[2.813152] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp\n'}
+[2.813776] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp\n'}
+[2.814464] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp\n'}
+[2.815426] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux\n'}
+[2.816280] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux\n'}
+[2.817136] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh\n'}
+[2.820549] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv\n'}
+[2.821523] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh\n'}
+[2.822525] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv\n'}
+[2.823246] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash\n'}
+[2.823955] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh\n'}
+[2.824697] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh\n'}
+[2.825418] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv\n'}
+[2.826123] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/package.dsv\n'}
+[2.827049] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux\n'}
+[2.827874] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.828295] (-) TimerEvent: {}
+[2.829369] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.830215] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake\n'}
+[2.830848] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake\n'}
+[2.831577] (ackermann_mux) StdoutLine: {'line': b'-- Installing: /home/meric/f1_ws/install/ackermann_mux/share/ackermann_mux/package.xml\n'}
+[2.842452] (ackermann_mux) CommandEnded: {'returncode': 0}
+[2.928521] (-) TimerEvent: {}
+[2.971182] (vesc_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.005993] (vesc_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[3.028724] (-) TimerEvent: {}
+[3.074174] (vesc_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o\x1b[0m\n'}
+[3.128911] (-) TimerEvent: {}
+[3.208360] (vesc_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.229077] (-) TimerEvent: {}
+[3.270643] (ackermann_mux) JobEnded: {'identifier': 'ackermann_mux', 'rc': 0}
+[3.302274] (vesc_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o\x1b[0m\n'}
+[3.329250] (-) TimerEvent: {}
+[3.429939] (-) TimerEvent: {}
+[3.441977] (vesc_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[3.442769] (vesc_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state__type_support_c.cpp.o\x1b[0m\n'}
+[3.487838] (vesc_msgs) StdoutLine: {'line': b'[ 43%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[3.530226] (-) TimerEvent: {}
+[3.547531] (vesc_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o\x1b[0m\n'}
+[3.610534] (teleop_tools_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.630281] (-) TimerEvent: {}
+[3.730944] (-) TimerEvent: {}
+[3.782737] (vesc_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o\x1b[0m\n'}
+[3.831121] (-) TimerEvent: {}
+[3.932141] (-) TimerEvent: {}
+[3.953408] (vesc_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking C shared library libvesc_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.995456] (vesc_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.022073] (teleop_tools_msgs) StdoutLine: {'line': b'[ 51%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.032323] (-) TimerEvent: {}
+[4.131750] (teleop_tools_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.132410] (-) TimerEvent: {}
+[4.150882] (vesc_msgs) StdoutLine: {'line': b'[ 50%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[4.224897] (vesc_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[4.232631] (-) TimerEvent: {}
+[4.333624] (-) TimerEvent: {}
+[4.364212] (teleop_tools_msgs) StdoutLine: {'line': b'[ 54%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[4.433845] (-) TimerEvent: {}
+[4.534603] (-) TimerEvent: {}
+[4.635311] (-) TimerEvent: {}
+[4.644533] (teleop_tools_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.681438] (vesc_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.735514] (-) TimerEvent: {}
+[4.742729] (key_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/key_teleop', 'build', '--build-base', '/home/meric/f1_ws/build/key_teleop/build', 'install', '--record', '/home/meric/f1_ws/build/key_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meric/f1_ws/src/f1tenth_system/teleop_tools/key_teleop', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meric', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64::/home/meric/f1tenth_ws/install/vesc_ackermann/lib', 'HOME': '/home/meric', 'OLDPWD': '/home/meric', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1717', 'SYSTEMD_EXEC_PID': '3154', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6118', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/meric/f1_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'meric', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1420524217180', 'JOURNAL_STREAM': '8:43933', '_': '/home/meric/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meric', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3131,unix/ubuntu:/tmp/.ICE-unix/3131', 'INVOCATION_ID': '167445556b4443b3808226aeee300b69', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:75050931-6ce4-4d04-bb17-96c5c7a41a1a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/meric/f1_ws/build/key_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meric/f1_ws/build/key_teleop/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/key_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[4.778431] (vesc_msgs) StdoutLine: {'line': b'writing vesc_msgs.egg-info/PKG-INFO\n'}
+[4.780102] (vesc_msgs) StdoutLine: {'line': b'writing dependency_links to vesc_msgs.egg-info/dependency_links.txt\n'}
+[4.781111] (vesc_msgs) StdoutLine: {'line': b'writing top-level names to vesc_msgs.egg-info/top_level.txt\n'}
+[4.835688] (-) TimerEvent: {}
+[4.899858] (vesc_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.927625] (mouse_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/mouse_teleop', 'build', '--build-base', '/home/meric/f1_ws/build/mouse_teleop/build', 'install', '--record', '/home/meric/f1_ws/build/mouse_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meric/f1_ws/src/f1tenth_system/teleop_tools/mouse_teleop', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meric', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64::/home/meric/f1tenth_ws/install/vesc_ackermann/lib', 'HOME': '/home/meric', 'OLDPWD': '/home/meric', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1717', 'SYSTEMD_EXEC_PID': '3154', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6118', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/meric/f1_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'meric', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1420524217180', 'JOURNAL_STREAM': '8:43933', '_': '/home/meric/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meric', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3131,unix/ubuntu:/tmp/.ICE-unix/3131', 'INVOCATION_ID': '167445556b4443b3808226aeee300b69', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:75050931-6ce4-4d04-bb17-96c5c7a41a1a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/meric/f1_ws/build/mouse_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meric/f1_ws/build/mouse_teleop/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/mouse_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[4.940404] (-) TimerEvent: {}
+[4.949162] (teleop_tools_msgs) StdoutLine: {'line': b'[ 58%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.961637] (vesc_msgs) StdoutLine: {'line': b"reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[4.992256] (vesc_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.008141] (vesc_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.008681] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/f1_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/setup.py", line 4, in <module>\n'}
+[5.009357] (vesc_msgs) StderrLine: {'line': b'    setup(\n'}
+[5.009694] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[5.010412] (vesc_msgs) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[5.010894] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[5.011372] (vesc_msgs) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[5.011704] (vesc_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.012036] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[5.012496] (vesc_msgs) StderrLine: {'line': b'    dist.run_commands()\n'}
+[5.012782] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[5.013437] (vesc_msgs) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[5.013741] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command\n'}
+[5.014366] (vesc_msgs) StderrLine: {'line': b'    super().run_command(command)\n'}
+[5.014664] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[5.015250] (vesc_msgs) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[5.015545] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run\n'}
+[5.016006] (vesc_msgs) StderrLine: {'line': b'    self.find_sources()\n'}
+[5.016280] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources\n'}
+[5.016723] (vesc_msgs) StderrLine: {'line': b'    mm.run()\n'}
+[5.016996] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run\n'}
+[5.017477] (vesc_msgs) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[5.017756] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[5.018204] (vesc_msgs) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[5.018495] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[5.018980] (vesc_msgs) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[5.019258] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[5.019685] (vesc_msgs) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[5.019963] (vesc_msgs) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[5.020390] (vesc_msgs) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[5.020678] (vesc_msgs) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[5.026928] (vesc_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[5.036832] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.040584] (-) TimerEvent: {}
+[5.049179] (vesc_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[5.140786] (-) TimerEvent: {}
+[5.168851] (vesc_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg] Error 1\n'}
+[5.170252] (vesc_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_vesc_msgs_egg.dir/all] Error 2\n'}
+[5.170644] (vesc_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.218351] (vesc_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu__type_support_c.cpp.o\x1b[0m\n'}
+[5.240984] (-) TimerEvent: {}
+[5.341724] (-) TimerEvent: {}
+[5.351196] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.354456] (teleop_tools_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.358954] (teleop_tools_msgs) CommandEnded: {'returncode': 2}
+[5.441939] (-) TimerEvent: {}
+[5.456613] (mouse_teleop) StderrLine: {'line': b"/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.457207] (mouse_teleop) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.518815] (key_teleop) StderrLine: {'line': b"/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.520734] (key_teleop) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.542168] (-) TimerEvent: {}
+[5.642871] (-) TimerEvent: {}
+[5.743673] (-) TimerEvent: {}
+[5.776923] (mouse_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.814700] (mouse_teleop) StdoutLine: {'line': b'writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO\n'}
+[5.816167] (mouse_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt\n'}
+[5.816652] (mouse_teleop) StdoutLine: {'line': b'writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt\n'}
+[5.817050] (mouse_teleop) StdoutLine: {'line': b'writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt\n'}
+[5.817383] (mouse_teleop) StdoutLine: {'line': b'writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt\n'}
+[5.843835] (-) TimerEvent: {}
+[5.920466] (key_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.944022] (-) TimerEvent: {}
+[5.951190] (mouse_teleop) StdoutLine: {'line': b"reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'\n"}
+[5.951825] (mouse_teleop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.952294] (mouse_teleop) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.952518] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/f1_ws/src/f1tenth_system/teleop_tools/mouse_teleop/setup.py", line 11, in <module>\n'}
+[5.952755] (mouse_teleop) StderrLine: {'line': b'    setup(\n'}
+[5.952924] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[5.953332] (mouse_teleop) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[5.953541] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[5.953720] (mouse_teleop) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[5.953889] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[5.954013] (mouse_teleop) StderrLine: {'line': b'    dist.run_commands()\n'}
+[5.954286] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[5.954426] (mouse_teleop) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[5.954542] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command\n'}
+[5.954941] (mouse_teleop) StderrLine: {'line': b'    super().run_command(command)\n'}
+[5.955082] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[5.955237] (mouse_teleop) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[5.955357] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run\n'}
+[5.955474] (mouse_teleop) StderrLine: {'line': b'    self.find_sources()\n'}
+[5.955585] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources\n'}
+[5.955700] (mouse_teleop) StderrLine: {'line': b'    mm.run()\n'}
+[5.955812] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run\n'}
+[5.956309] (mouse_teleop) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[5.956464] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[5.956587] (mouse_teleop) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[5.956703] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[5.956819] (mouse_teleop) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[5.956933] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[5.957044] (mouse_teleop) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[5.957154] (mouse_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[5.957264] (mouse_teleop) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[5.957373] (mouse_teleop) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[5.973362] (vesc_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[5.973823] (key_teleop) StdoutLine: {'line': b'writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO\n'}
+[5.975057] (key_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt\n'}
+[5.976458] (key_teleop) StdoutLine: {'line': b'writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt\n'}
+[5.977638] (key_teleop) StdoutLine: {'line': b'writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt\n'}
+[5.978575] (key_teleop) StdoutLine: {'line': b'writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt\n'}
+[6.002039] (vesc_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[6.044164] (-) TimerEvent: {}
+[6.062010] (key_teleop) StdoutLine: {'line': b"reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'\n"}
+[6.063698] (key_teleop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.064433] (key_teleop) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.064845] (key_teleop) StderrLine: {'line': b'  File "/home/meric/f1_ws/src/f1tenth_system/teleop_tools/key_teleop/setup.py", line 11, in <module>\n'}
+[6.065421] (key_teleop) StderrLine: {'line': b'    setup(\n'}
+[6.065759] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[6.066413] (key_teleop) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[6.066659] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[6.067057] (key_teleop) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[6.067343] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[6.067773] (key_teleop) StderrLine: {'line': b'    dist.run_commands()\n'}
+[6.068065] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[6.068681] (key_teleop) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[6.068985] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command\n'}
+[6.069573] (key_teleop) StderrLine: {'line': b'    super().run_command(command)\n'}
+[6.069867] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[6.070526] (key_teleop) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[6.070821] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run\n'}
+[6.071288] (key_teleop) StderrLine: {'line': b'    self.find_sources()\n'}
+[6.071569] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources\n'}
+[6.072027] (key_teleop) StderrLine: {'line': b'    mm.run()\n'}
+[6.072312] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run\n'}
+[6.072806] (key_teleop) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[6.073095] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[6.073525] (key_teleop) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[6.073809] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[6.074339] (key_teleop) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[6.074631] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[6.075093] (key_teleop) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[6.075409] (key_teleop) StderrLine: {'line': b'  File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[6.075887] (key_teleop) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[6.076194] (key_teleop) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[6.129214] (mouse_teleop) CommandEnded: {'returncode': 1}
+[6.130426] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 1}
+[6.144357] (-) TimerEvent: {}
+[6.145080] (vesc_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.147062] (vesc_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.192759] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 'SIGINT'}
+[6.196194] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 'SIGINT'}
+[6.244572] (-) TimerEvent: {}
+[6.259787] (vesc_msgs) StdoutLine: {'line': b'[ 70%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[6.271062] (vesc_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.344781] (-) TimerEvent: {}
+[6.445532] (-) TimerEvent: {}
+[6.546260] (-) TimerEvent: {}
+[6.647006] (-) TimerEvent: {}
+[6.747713] (-) TimerEvent: {}
+[6.787463] (vesc_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.847903] (-) TimerEvent: {}
+[6.945452] (vesc_msgs) StdoutLine: {'line': b'[ 74%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.947981] (-) TimerEvent: {}
+[7.001552] (vesc_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.048193] (-) TimerEvent: {}
+[7.123120] (vesc_msgs) StdoutLine: {'line': b'[ 76%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.148357] (-) TimerEvent: {}
+[7.161997] (vesc_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.248535] (-) TimerEvent: {}
+[7.326448] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.328996] (vesc_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.334697] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 'SIGINT'}
+[7.345708] (joy_teleop) JobSkipped: {'identifier': 'joy_teleop'}
+[7.345978] (vesc_ackermann) JobSkipped: {'identifier': 'vesc_ackermann'}
+[7.346232] (vesc_driver) JobSkipped: {'identifier': 'vesc_driver'}
+[7.346383] (teleop_tools) JobSkipped: {'identifier': 'teleop_tools'}
+[7.346515] (vesc) JobSkipped: {'identifier': 'vesc'}
+[7.346594] (f1tenth_stack) JobSkipped: {'identifier': 'f1tenth_stack'}
+[7.346665] (-) EventReactorShutdown: {}

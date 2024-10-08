@@ -1,0 +1,23 @@
+[1.494s] Invoking command in '/home/meric/f1_ws/src/avoid': PYTHONPATH=/home/meric/f1_ws/build/avoid/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/avoid build --build-base /home/meric/f1_ws/build/avoid/build install --record /home/meric/f1_ws/build/avoid/install.log --single-version-externally-managed
+[2.082s] running egg_info
+[2.083s] writing ../../build/avoid/avoid.egg-info/PKG-INFO
+[2.084s] writing dependency_links to ../../build/avoid/avoid.egg-info/dependency_links.txt
+[2.084s] writing entry points to ../../build/avoid/avoid.egg-info/entry_points.txt
+[2.084s] writing requirements to ../../build/avoid/avoid.egg-info/requires.txt
+[2.085s] writing top-level names to ../../build/avoid/avoid.egg-info/top_level.txt
+[2.089s] reading manifest file '../../build/avoid/avoid.egg-info/SOURCES.txt'
+[2.091s] writing manifest file '../../build/avoid/avoid.egg-info/SOURCES.txt'
+[2.091s] running build
+[2.091s] running build_py
+[2.091s] copying avoid/simple_controller.py -> /home/meric/f1_ws/build/avoid/build/lib/avoid
+[2.092s] running install
+[2.093s] running install_lib
+[2.095s] copying /home/meric/f1_ws/build/avoid/build/lib/avoid/simple_controller.py -> /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid
+[2.096s] byte-compiling /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid/simple_controller.py to simple_controller.cpython-310.pyc
+[2.098s] running install_egg_info
+[2.102s] removing '/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid-0.0.0-py3.10.egg-info' (and everything under it)
+[2.102s] Copying ../../build/avoid/avoid.egg-info to /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid-0.0.0-py3.10.egg-info
+[2.104s] running install_scripts
+[2.150s] Installing simple_controller script to /home/meric/f1_ws/install/avoid/lib/avoid
+[2.151s] writing list of installed files to '/home/meric/f1_ws/build/avoid/install.log'
+[2.227s] Invoked command in '/home/meric/f1_ws/src/avoid' returned '0': PYTHONPATH=/home/meric/f1_ws/build/avoid/prefix_override:/home/meric/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/avoid build --build-base /home/meric/f1_ws/build/avoid/build install --record /home/meric/f1_ws/build/avoid/install.log --single-version-externally-managed

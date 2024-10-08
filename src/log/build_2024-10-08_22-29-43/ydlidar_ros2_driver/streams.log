@@ -1,0 +1,54 @@
+[0.033s] Invoking command in '/home/meric/f1_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/src/install/ydlidar_ros2_driver
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.318s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.670s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.675s] -- Detecting C compile features
+[0.676s] -- Detecting C compile features - done
+[0.682s] -- Detecting CXX compiler ABI info
+[1.073s] -- Detecting CXX compiler ABI info - done
+[1.102s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.102s] -- Detecting CXX compile features
+[1.103s] -- Detecting CXX compile features - done
+[1.139s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.046s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.481s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.709s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.740s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.795s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.201s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.850s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.022s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.258s] -- Looking for pthread.h
+[4.746s] -- Looking for pthread.h - found
+[4.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.315s] -- Found Threads: TRUE  
+[5.626s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.786s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.907s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[6.000s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[6.001s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[6.001s]   has asked CMake to find a package configuration file provided by
+[6.001s]   "ydlidar_sdk", but CMake did not find one.
+[6.001s] 
+[6.002s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[6.002s]   any of the following names:
+[6.002s] 
+[6.002s]     ydlidar_sdkConfig.cmake
+[6.002s]     ydlidar_sdk-config.cmake
+[6.003s] 
+[6.004s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[6.004s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[6.004s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[6.004s]   has been installed.
+[6.005s] 
+[6.005s] [0m
+[6.006s] -- Configuring incomplete, errors occurred!
+[6.006s] See also "/home/meric/f1_ws/src/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[6.093s] Invoked command in '/home/meric/f1_ws/src/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/src/install/ydlidar_ros2_driver

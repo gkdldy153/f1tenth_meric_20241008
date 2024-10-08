@@ -1,0 +1,5 @@
+[0.740s] Invoking command in '/home/meric/f1_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/keyboard_msgs -- -j6 -l6
+[0.778s] [0mCMake Error: The source directory "/home/meric/f1_ws/src/ros2-keyboard/keyboard_msgs" does not exist.
+[0.779s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.781s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.365s] Invoked command in '/home/meric/f1_ws/build/keyboard_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/keyboard_msgs -- -j6 -l6

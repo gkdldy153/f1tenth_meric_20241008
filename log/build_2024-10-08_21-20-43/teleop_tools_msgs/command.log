@@ -1,0 +1,4 @@
+Invoking command in '/home/meric/f1_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/teleop_tools_msgs
+Invoked command in '/home/meric/f1_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/teleop_tools_msgs
+Invoking command in '/home/meric/f1_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/teleop_tools_msgs -- -j6 -l6
+Invoked command in '/home/meric/f1_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/teleop_tools_msgs -- -j6 -l6

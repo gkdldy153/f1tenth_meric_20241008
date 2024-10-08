@@ -1,0 +1,5 @@
+[0.745s] Invoking command in '/home/meric/f1_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/teleop_tools_msgs:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/keyboard_msgs -- -j6 -l6
+[0.786s] [0mCMake Error: The source directory "/home/meric/f1_ws/src/ros2-keyboard/keyboard_msgs" does not exist.
+[0.786s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.788s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.416s] Invoked command in '/home/meric/f1_ws/build/keyboard_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/teleop_tools_msgs:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/keyboard_msgs -- -j6 -l6

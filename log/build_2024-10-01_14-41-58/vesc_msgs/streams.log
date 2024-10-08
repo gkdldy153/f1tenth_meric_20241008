@@ -1,0 +1,24 @@
+[0.075s] Invoking command in '/home/meric/f1_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/teleop_tools_msgs:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6
+[1.019s] [ 10%] Built target vesc_msgs__rosidl_generator_c
+[1.019s] [ 12%] Built target vesc_msgs__cpp
+[1.019s] [ 12%] Built target ament_cmake_python_copy_vesc_msgs
+[1.019s] [ 23%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[1.019s] [ 34%] Built target vesc_msgs__rosidl_typesupport_c
+[1.019s] [ 45%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[1.020s] [ 56%] Built target vesc_msgs__rosidl_typesupport_cpp
+[1.020s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[1.020s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[1.020s] [ 78%] Built target vesc_msgs
+[1.021s] [ 80%] Built target vesc_msgs__py
+[1.022s] [ 89%] Built target vesc_msgs__rosidl_generator_py
+[1.024s] [ 92%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[1.029s] [ 96%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.029s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[1.042s] running egg_info
+[1.044s] writing vesc_msgs.egg-info/PKG-INFO
+[1.044s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[1.045s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[1.051s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[1.052s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[1.123s] [100%] Built target ament_cmake_python_build_vesc_msgs_egg
+[1.698s] Invoked command in '/home/meric/f1_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/teleop_tools_msgs:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6

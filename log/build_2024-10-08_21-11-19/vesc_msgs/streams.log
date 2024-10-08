@@ -1,0 +1,14 @@
+[0.077s] Invoking command in '/home/meric/f1_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6
+[1.401s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_c[0m
+[1.402s] [  1%] Built target vesc_msgs__cpp
+[1.403s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[1.403s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_cpp[0m
+[1.404s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.405s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[1.406s] [ 34%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[1.406s] failed to create symbolic link '/home/meric/f1_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/vesc_msgs' because existing path cannot be removed: Is a directory
+[1.406s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vesc_msgs] Error 1
+[1.406s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/all] Error 2
+[1.406s] gmake[1]: *** Waiting for unfinished jobs....
+[1.406s] gmake: *** [Makefile:146: all] Error 2
+[2.047s] Invoked command in '/home/meric/f1_ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6

@@ -1,0 +1,33 @@
+[0.054s] Invoking command in '/home/meric/f1_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/vesc_msgs
+[2.054s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.055s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.056s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.058s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.518s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.578s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.578s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.681s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.718s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.721s] -- Added test 'lint_cmake' to check CMake code style
+[2.723s] -- Added test 'xmllint' to check XML markup files
+[2.736s] -- Configuring done
+[2.881s] -- Generating done
+[2.903s] -- Build files have been written to: /home/meric/f1_ws/build/vesc_msgs
+[3.206s] Invoked command in '/home/meric/f1_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/f1tenth_system/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/vesc_msgs
+[3.209s] Invoking command in '/home/meric/f1_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6
+[3.303s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_generator_c[0m
+[3.341s] [  1%] Built target vesc_msgs__cpp
+[3.351s] failed to create symbolic link '/home/meric/f1_ws/build/vesc_msgs/ament_cmake_python/vesc_msgs/vesc_msgs' because existing path cannot be removed: Is a directory
+[3.353s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vesc_msgs] Error 1
+[3.353s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[3.356s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_vesc_msgs.dir/all] Error 2
+[3.356s] gmake[1]: *** Waiting for unfinished jobs....
+[3.378s] [35m[1mConsolidate compiler generated dependencies of target vesc_msgs__rosidl_typesupport_cpp[0m
+[3.411s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[3.414s] gmake: *** [Makefile:146: all] Error 2
+[3.420s] Invoked command in '/home/meric/f1_ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/vesc_msgs -- -j6 -l6

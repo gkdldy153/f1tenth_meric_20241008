@@ -1,0 +1,60 @@
+[0.773s] Invoking command in '/home/meric/f1_ws/build/cpp_right_wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/cpp_right_wall_follower -- -j6 -l6
+[0.829s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.119s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.171s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.175s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.186s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.290s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.601s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.620s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.652s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.667s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.824s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.830s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.833s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.842s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.009s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.014s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.014s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/meric/f1_ws/src/F1tenth_wall_follower_ROS2/include>
+[2.015s] -- Configured cppcheck exclude dirs and/or files: 
+[2.019s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.019s] -- Configured cpplint exclude dirs and/or files: 
+[2.020s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.022s] -- Added test 'lint_cmake' to check CMake code style
+[2.023s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.027s] -- Added test 'uncrustify' to check C / C++ code style
+[2.027s] -- Configured uncrustify additional arguments: 
+[2.028s] -- Added test 'xmllint' to check XML markup files
+[2.031s] -- Configuring done
+[2.059s] -- Generating done
+[2.064s] -- Build files have been written to: /home/meric/f1_ws/build/cpp_right_wall_follower
+[2.130s] [35m[1mConsolidate compiler generated dependencies of target right_wall_follower_drive_node[0m
+[2.167s] [100%] Built target right_wall_follower_drive_node
+[2.477s] Invoked command in '/home/meric/f1_ws/build/cpp_right_wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/cpp_right_wall_follower -- -j6 -l6
+[2.535s] Invoking command in '/home/meric/f1_ws/build/cpp_right_wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/meric/f1_ws/build/cpp_right_wall_follower
+[2.552s] -- Install configuration: ""
+[2.553s] -- Up-to-date: /home/meric/f1_ws/install/cpp_right_wall_follower/lib/cpp_right_wall_follower/right_wall_follower_drive_node
+[2.554s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower//launch
+[2.555s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower//launch/right_wall_follower.launch.py
+[2.557s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/ament_index/resource_index/package_run_dependencies/cpp_right_wall_follower
+[2.558s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/ament_index/resource_index/parent_prefix_path/cpp_right_wall_follower
+[2.559s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/environment/ament_prefix_path.sh
+[2.559s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/environment/ament_prefix_path.dsv
+[2.560s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/environment/path.sh
+[2.561s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/environment/path.dsv
+[2.563s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/local_setup.bash
+[2.563s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/local_setup.sh
+[2.564s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/local_setup.zsh
+[2.564s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/local_setup.dsv
+[2.564s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/package.dsv
+[2.564s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/ament_index/resource_index/packages/cpp_right_wall_follower
+[2.565s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.565s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.565s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/cmake/cpp_right_wall_followerConfig.cmake
+[2.566s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/cmake/cpp_right_wall_followerConfig-version.cmake
+[2.566s] -- Installing: /home/meric/f1_ws/install/cpp_right_wall_follower/share/cpp_right_wall_follower/package.xml
+[2.573s] Invoked command in '/home/meric/f1_ws/build/cpp_right_wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/meric/f1_ws/build/cpp_right_wall_follower

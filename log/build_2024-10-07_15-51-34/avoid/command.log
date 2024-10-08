@@ -1,0 +1,2 @@
+Invoking command in '/home/meric/f1_ws/build/avoid': /usr/bin/cmake /home/meric/f1_ws/src/avoid -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/avoid
+Invoked command in '/home/meric/f1_ws/build/avoid' returned '1': /usr/bin/cmake /home/meric/f1_ws/src/avoid -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/avoid

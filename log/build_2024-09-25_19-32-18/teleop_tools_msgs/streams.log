@@ -1,0 +1,50 @@
+[0.047s] Invoking command in '/home/meric/f1_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/teleop_tools_msgs -- -j6 -l6
+[1.043s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.044s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.044s] [  6%] Built target ament_cmake_python_copy_teleop_tools_msgs
+[1.044s] running egg_info
+[1.044s] creating teleop_tools_msgs.egg-info
+[1.073s] writing teleop_tools_msgs.egg-info/PKG-INFO
+[1.096s] writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt
+[1.096s] writing top-level names to teleop_tools_msgs.egg-info/top_level.txt
+[1.096s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[1.322s] reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[1.421s] Traceback (most recent call last):
+[1.428s]   File "/home/meric/f1_ws/build/teleop_tools_msgs/ament_cmake_python/teleop_tools_msgs/setup.py", line 4, in <module>
+[1.429s]     setup(
+[1.429s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[1.429s]     return distutils.core.setup(**attrs)
+[1.429s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[1.432s]     return run_commands(dist)
+[1.432s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[1.433s]     dist.run_commands()
+[1.433s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[1.433s]     self.run_command(cmd)
+[1.433s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command
+[1.433s]     super().run_command(command)
+[1.434s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+[1.434s]     cmd_obj.run()
+[1.434s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run
+[1.435s]     self.find_sources()
+[1.435s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources
+[1.435s]     mm.run()
+[1.435s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run
+[1.435s]     self.prune_file_list()
+[1.436s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list
+[1.436s]     super().prune_file_list()
+[1.436s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[1.436s]     base_dir = self.distribution.get_fullname()
+[1.436s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[1.437s]     return _distribution_fullname(self.get_name(), self.get_version())
+[1.437s]   File "/home/meric/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[1.437s]     canonicalize_version(version, strip_trailing_zero=False),
+[1.437s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[1.644s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg] Error 1
+[1.644s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_teleop_tools_msgs_egg.dir/all] Error 2
+[1.644s] gmake[1]: *** Waiting for unfinished jobs....
+[1.788s] [  6%] Built target teleop_tools_msgs__cpp
+[1.795s] [  9%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[2.359s] [ 12%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[2.507s] [ 12%] Built target teleop_tools_msgs__rosidl_generator_c
+[2.510s] gmake: *** [Makefile:146: all] Error 2
+[2.523s] Invoked command in '/home/meric/f1_ws/build/teleop_tools_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/teleop_tools_msgs -- -j6 -l6

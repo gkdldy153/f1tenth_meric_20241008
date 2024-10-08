@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/meric/f1_ws/src/F1tenth_wall_follower_ROS2/include": No such file or
+  directory.
+
+[0m

@@ -1,0 +1,229 @@
+[0.735s] Invoking command in '/home/meric/f1_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/ros2-keyboard/keyboard_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/keyboard_msgs
+[0.841s] -- The C compiler identification is GNU 11.4.0
+[0.954s] -- The CXX compiler identification is GNU 11.4.0
+[0.969s] -- Detecting C compiler ABI info
+[1.108s] -- Detecting C compiler ABI info - done
+[1.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.120s] -- Detecting C compile features
+[1.121s] -- Detecting C compile features - done
+[1.126s] -- Detecting CXX compiler ABI info
+[1.294s] -- Detecting CXX compiler ABI info - done
+[1.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.317s] -- Detecting CXX compile features
+[1.319s] -- Detecting CXX compile features - done
+[1.330s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.758s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.981s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[2.060s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.073s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.100s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.221s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.930s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.208s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.213s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.291s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.292s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.292s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.292s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.341s] -- Found PythonExtra: .so  
+[4.457s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.513s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.516s] -- Added test 'lint_cmake' to check CMake code style
+[4.518s] -- Added test 'xmllint' to check XML markup files
+[4.524s] -- Configuring done
+[4.584s] -- Generating done
+[4.589s] -- Build files have been written to: /home/meric/f1_ws/build/keyboard_msgs
+[4.610s] Invoked command in '/home/meric/f1_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake /home/meric/f1_ws/src/ros2-keyboard/keyboard_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1_ws/install/keyboard_msgs
+[4.614s] Invoking command in '/home/meric/f1_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/keyboard_msgs -- -j6 -l6
+[4.699s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.722s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.744s] [  6%] Built target ament_cmake_python_copy_keyboard_msgs
+[5.343s] running egg_info
+[5.344s] creating keyboard_msgs.egg-info
+[5.344s] writing keyboard_msgs.egg-info/PKG-INFO
+[5.345s] writing dependency_links to keyboard_msgs.egg-info/dependency_links.txt
+[5.345s] writing top-level names to keyboard_msgs.egg-info/top_level.txt
+[5.345s] writing manifest file 'keyboard_msgs.egg-info/SOURCES.txt'
+[5.349s] reading manifest file 'keyboard_msgs.egg-info/SOURCES.txt'
+[5.351s] writing manifest file 'keyboard_msgs.egg-info/SOURCES.txt'
+[5.420s] [  6%] Built target ament_cmake_python_build_keyboard_msgs_egg
+[8.191s] [  9%] [32mBuilding C object CMakeFiles/keyboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/keyboard_msgs/msg/detail/key__functions.c.o[0m
+[8.191s] [  9%] Built target keyboard_msgs__cpp
+[8.213s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.213s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.213s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.299s] [ 22%] [32m[1mLinking C shared library libkeyboard_msgs__rosidl_generator_c.so[0m
+[8.370s] [ 22%] Built target keyboard_msgs__rosidl_generator_c
+[8.392s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.392s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.392s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.765s] [ 35%] [32mBuilding CXX object CMakeFiles/keyboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/keyboard_msgs/msg/detail/dds_fastrtps/key__type_support.cpp.o[0m
+[11.821s] [ 38%] [32mBuilding CXX object CMakeFiles/keyboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/keyboard_msgs/msg/detail/key__type_support.cpp.o[0m
+[12.053s] [ 41%] [32mBuilding CXX object CMakeFiles/keyboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/keyboard_msgs/msg/key__type_support.cpp.o[0m
+[12.242s] [ 45%] [32mBuilding C object CMakeFiles/keyboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/keyboard_msgs/msg/detail/key__type_support.c.o[0m
+[12.322s] [ 48%] [32m[1mLinking C shared library libkeyboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.347s] [ 51%] [32mBuilding CXX object CMakeFiles/keyboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/keyboard_msgs/msg/key__type_support.cpp.o[0m
+[12.431s] [ 54%] [32mBuilding CXX object CMakeFiles/keyboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/keyboard_msgs/msg/detail/key__type_support_c.cpp.o[0m
+[12.438s] [ 58%] [32m[1mLinking CXX shared library libkeyboard_msgs__rosidl_typesupport_c.so[0m
+[12.459s] [ 58%] Built target keyboard_msgs__rosidl_typesupport_introspection_c
+[12.566s] [ 58%] Built target keyboard_msgs__rosidl_typesupport_c
+[12.771s] [ 61%] [32m[1mLinking CXX shared library libkeyboard_msgs__rosidl_typesupport_cpp.so[0m
+[12.787s] [ 64%] [32m[1mLinking CXX shared library libkeyboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.797s] [ 67%] [32m[1mLinking CXX shared library libkeyboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.855s] [ 67%] Built target keyboard_msgs__rosidl_typesupport_cpp
+[12.932s] [ 67%] Built target keyboard_msgs__rosidl_typesupport_introspection_cpp
+[12.955s] [ 67%] Built target keyboard_msgs__rosidl_typesupport_fastrtps_cpp
+[13.152s] [ 70%] [32m[1mLinking CXX shared library libkeyboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.316s] [ 70%] Built target keyboard_msgs__rosidl_typesupport_fastrtps_c
+[13.368s] [ 70%] Built target keyboard_msgs
+[13.423s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.766s] [ 74%] Built target keyboard_msgs__py
+[19.815s] [ 77%] [32mBuilding C object CMakeFiles/keyboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/keyboard_msgs/msg/_key_s.c.o[0m
+[20.040s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/keyboard_msgs/libkeyboard_msgs__rosidl_generator_py.so[0m
+[20.123s] [ 80%] Built target keyboard_msgs__rosidl_generator_py
+[20.167s] [ 90%] [32mBuilding C object CMakeFiles/keyboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.167s] [ 90%] [32mBuilding C object CMakeFiles/keyboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.167s] [ 90%] [32mBuilding C object CMakeFiles/keyboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[20.372s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[20.372s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[20.372s] [100%] [32m[1mLinking C shared library rosidl_generator_py/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[20.458s] [100%] Built target keyboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[20.458s] [100%] Built target keyboard_msgs__rosidl_typesupport_introspection_c__pyext
+[20.458s] [100%] Built target keyboard_msgs__rosidl_typesupport_c__pyext
+[20.489s] Invoked command in '/home/meric/f1_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --build /home/meric/f1_ws/build/keyboard_msgs -- -j6 -l6
+[20.627s] Invoking command in '/home/meric/f1_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/meric/f1_ws/build/keyboard_msgs
+[20.648s] -- Install configuration: ""
+[20.648s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/ament_index/resource_index/rosidl_interfaces/keyboard_msgs
+[20.648s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs
+[20.649s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg
+[20.649s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.649s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail
+[20.650s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__functions.c
+[20.650s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__struct.h
+[20.650s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__type_support.h
+[20.651s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__functions.h
+[20.651s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/key.h
+[20.651s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/library_path.sh
+[20.652s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/library_path.dsv
+[20.652s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_generator_c.so
+[20.653s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_generator_c.so" to ""
+[20.653s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs
+[20.653s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg
+[20.653s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail
+[20.654s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_fastrtps_c.h
+[20.654s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.654s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_fastrtps_c.so
+[20.655s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[20.655s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs
+[20.655s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg
+[20.656s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail
+[20.656s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__builder.hpp
+[20.656s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__traits.hpp
+[20.656s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__struct.hpp
+[20.657s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/key.hpp
+[20.657s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs
+[20.657s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg
+[20.658s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.658s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail
+[20.658s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/dds_fastrtps
+[20.658s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_fastrtps_cpp.hpp
+[20.659s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[20.659s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.659s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs
+[20.660s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg
+[20.660s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.660s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail
+[20.661s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_introspection_c.h
+[20.661s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__type_support.c
+[20.661s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_introspection_c.so
+[20.661s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[20.662s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_c.so
+[20.662s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_c.so" to ""
+[20.662s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs
+[20.663s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg
+[20.663s] -- Up-to-date: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail
+[20.663s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__type_support.cpp
+[20.664s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_introspection_cpp.hpp
+[20.664s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_introspection_cpp.so
+[20.665s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[20.665s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_cpp.so
+[20.665s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_cpp.so" to ""
+[20.666s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/pythonpath.sh
+[20.666s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/pythonpath.dsv
+[20.666s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info
+[20.666s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[20.667s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[20.667s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[20.667s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[20.667s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs
+[20.668s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.668s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/libkeyboard_msgs__rosidl_generator_py.so
+[20.668s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.668s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.668s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg
+[20.669s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/_key_s.c
+[20.669s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/__init__.py
+[20.669s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/_key.py
+[20.669s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/__init__.py
+[20.669s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.670s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_c.c
+[20.670s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.760s] Listing '/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs'...
+[20.760s] Compiling '/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/__init__.py'...
+[20.760s] Listing '/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg'...
+[20.761s] Compiling '/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/__init__.py'...
+[20.761s] Compiling '/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/_key.py'...
+[20.772s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.773s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[20.773s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.773s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[20.774s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.774s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[20.775s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_generator_py.so
+[20.775s] -- Set runtime path of "/home/meric/f1_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_generator_py.so" to ""
+[20.776s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/msg/Key.idl
+[20.776s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/msg/Key.msg
+[20.777s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/ament_index/resource_index/package_run_dependencies/keyboard_msgs
+[20.777s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/ament_index/resource_index/parent_prefix_path/keyboard_msgs
+[20.777s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/ament_prefix_path.sh
+[20.778s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/ament_prefix_path.dsv
+[20.778s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/path.sh
+[20.778s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/environment/path.dsv
+[20.778s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.bash
+[20.779s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.sh
+[20.779s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.zsh
+[20.779s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.dsv
+[20.780s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/package.dsv
+[20.780s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/ament_index/resource_index/packages/keyboard_msgs
+[20.781s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_cExport.cmake
+[20.781s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.781s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.782s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.782s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_cppExport.cmake
+[20.782s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.783s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.783s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.784s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.784s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cExport.cmake
+[20.784s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.785s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.785s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.785s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cppExport.cmake
+[20.786s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.786s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_pyExport.cmake
+[20.786s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[20.787s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/rosidl_cmake-extras.cmake
+[20.787s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.787s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.788s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.788s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.788s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.789s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.789s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgsConfig.cmake
+[20.789s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgsConfig-version.cmake
+[20.790s] -- Installing: /home/meric/f1_ws/install/keyboard_msgs/share/keyboard_msgs/package.xml
+[20.797s] Invoked command in '/home/meric/f1_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1_ws/install/f1tenth_stack:/home/meric/f1_ws/install/joy_teleop:/home/meric/f1_ws/install/mouse_teleop:/home/meric/f1_ws/install/key_teleop:/opt/ros/humble /usr/bin/cmake --install /home/meric/f1_ws/build/keyboard_msgs

@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/avoid/avoid.egg-info/PKG-INFO
+writing dependency_links to ../../build/avoid/avoid.egg-info/dependency_links.txt
+writing entry points to ../../build/avoid/avoid.egg-info/entry_points.txt
+writing requirements to ../../build/avoid/avoid.egg-info/requires.txt
+writing top-level names to ../../build/avoid/avoid.egg-info/top_level.txt
+reading manifest file '../../build/avoid/avoid.egg-info/SOURCES.txt'
+writing manifest file '../../build/avoid/avoid.egg-info/SOURCES.txt'
+running build
+running build_py
+copying avoid/simple_controller.py -> /home/meric/f1_ws/build/avoid/build/lib/avoid
+running install
+running install_lib
+copying /home/meric/f1_ws/build/avoid/build/lib/avoid/simple_controller.py -> /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid
+byte-compiling /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid/simple_controller.py to simple_controller.cpython-310.pyc
+running install_egg_info
+removing '/home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/avoid/avoid.egg-info to /home/meric/f1_ws/install/avoid/lib/python3.10/site-packages/avoid-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_controller script to /home/meric/f1_ws/install/avoid/lib/avoid
+writing list of installed files to '/home/meric/f1_ws/build/avoid/install.log'
